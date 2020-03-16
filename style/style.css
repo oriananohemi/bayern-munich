@@ -153,6 +153,19 @@ body {
   font-size: 16px
 }
 
+/* ESTILOS DEL FOOTER */
+
+.footer {
+  background-color: #dc0423;
+}
+
+.copyright {
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  text-align: right;
+}
+
 @media (min-width: 1200px) {
   .hero {
   flex-wrap: nowrap;
