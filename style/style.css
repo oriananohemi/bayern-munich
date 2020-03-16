@@ -20,13 +20,11 @@ body {
 }
 
 .flex-container {
-  align-items: center;
   display: flex;
   justify-content: center;
 }
 
 .img {
-  max-height: 100%;
   max-width: 100%;
 }
 
@@ -54,12 +52,69 @@ body {
   text-decoration: underline;
 }
 
-/* .first-half {
-  background-image: url(../img/allianzBayer.png);
-  min-height: 400px;
-} */
+/* ESTILOS DE LA SECCION HERO */
 
-.second-half {
+.hero {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.blue {
+  flex: 1 1 100%;
+}
+
+.red {
+  display: flex;
+  flex: 1 1 100%;
+}
+
+.green {
+  flex: 1 1 30%;
+}
+
+.flex {
+ display: flex;
+ flex: 1 1 70%;
+}
+
+.violet {
+  flex: 1 1 50%;
+}
+
+.yellow {
+  flex: 1 1 50%;
+
+}
+
+@media (min-width: 1200px) {
+  .hero {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.blue {
+  flex: 1 1 50%;
+}
+
+.red {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1 1 50%;
+}
+.green {
+  flex: 1 1 100%;
+}
+
+.flex {
+ display: flex;
+ flex: 1 1 100%;
+}
+
+.violet {
+  flex: 1 1 50%;
+}
+
+.yellow {
+  flex: 1 1 50%;
+}
 }
